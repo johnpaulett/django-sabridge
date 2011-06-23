@@ -1,0 +1,4 @@
+Sphinx
+ipython
+Django==1.3
+sqlalchemy==0.7.1
