@@ -98,3 +98,9 @@ Contents
    develop
    changelog
    license
+
+Links
+=====
+
+ * https://github.com/johnpaulett/django-sabridge
+ * https://django-sabridge.readthedocs.org
