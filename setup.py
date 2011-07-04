@@ -13,6 +13,7 @@ setup(
     author_email='john@paulett.org',
     url='https://django-sabridge.readthedocs.org',
     description = 'Provides SQLAlchemy access to Django models.',
+    license='BSD',
     packages=find_packages(exclude=('tests',)),
     zip_safe=True,
     install_requires=[
@@ -24,6 +25,7 @@ setup(
     classifiers=[
         'Framework :: Django',
         'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Topic :: Database',
         'Topic :: Software Development'
