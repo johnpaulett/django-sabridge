@@ -49,7 +49,7 @@ copyright = u'2011, John Paulett'
 # built documents.
 #
 # The short X.Y version.
-version = '%s.%s' % sabridge.VERSION[0:2]
+version = '%s.%s' % sabridge.version.VERSION[0:2]
 # The full version, including alpha/beta/rc tags.
 release = sabridge.__version__
 
