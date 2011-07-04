@@ -1,13 +1,14 @@
 from setuptools import setup, find_packages
 
-import sabridge
+# get around issues importing sqlalchemy
+execfile('sabridge/version.py')
 
 tests_require = [
     'Django>=1.2,<1.4',
 ]
 setup(
     name='django-sabridge',
-    version=sabridge.__version__,
+    version=__version__,
     author='John Paulett',
     author_email='john@paulett.org',
     url='http://github.com/johnpaulett/django-sabridge',
