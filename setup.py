@@ -11,7 +11,7 @@ setup(
     version=__version__,
     author='John Paulett',
     author_email='john@paulett.org',
-    url='http://github.com/johnpaulett/django-sabridge',
+    url='https://django-sabridge.readthedocs.org',
     description = 'Provides SQLAlchemy access to Django models.',
     packages=find_packages(exclude=('tests',)),
     zip_safe=True,
