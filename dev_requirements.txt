@@ -1,2 +1,3 @@
 Sphinx
 ipython
+Django
