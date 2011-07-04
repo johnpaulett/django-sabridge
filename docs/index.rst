@@ -96,4 +96,5 @@ Contents
    
    api
    develop
+   changelog
    license
