@@ -98,6 +98,7 @@ Contents
    develop
    changelog
    license
+   ideas
 
 Links
 =====
