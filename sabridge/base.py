@@ -82,7 +82,7 @@ def urlbuild(scheme, path, username=None, password=None, hostname=None, port=Non
         netloc.append(hostname)
     if port:
         netloc.append(':')
-        netloc.append(port)
+        netloc.append(str(port))
 
     # put it all together
     return '{scheme}://{netloc}/{path}'.format(scheme=scheme,

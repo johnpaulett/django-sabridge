@@ -19,6 +19,10 @@ class URLBuildTest(TestCase):
                                   username='scott', password='tiger'),
                          'postgresql://scott:tiger@10.0.0.1:5432/test')
 
+    def test_int_port(self):
+        self.assertEqual(urlbuild('postgresql', 'test', hostname='10.0.0.1', port=5433),
+                         'postgresql://10.0.0.1:5433/test')
+
 
 class BridgeTest(TransactionTestCase):
     # Must use a TransactionTestCase so that inside a test, writes from Django
